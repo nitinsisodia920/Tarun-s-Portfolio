@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
+import profileImage from '../../assets/profile.jpg';
 
 const About = () => {
   return (
@@ -18,7 +18,7 @@ const About = () => {
           </h1>
           {/* Name */}
           <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
-            Tarun Kaushik
+            Nitin Rajput
           </h2>
           {/* Skills Heading with Typing Effect */}
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
@@ -26,9 +26,8 @@ const About = () => {
             <ReactTypingEffect
               text={[
                 'Fullstack Developer',
-                'App Developer',
                 'UI/UX Designer',
-                'Coder',
+                'Software Tester',
               ]}
               speed={100}
               eraseSpeed={50}
@@ -48,7 +47,7 @@ const About = () => {
             efficient solutions.
           </p>
           {/* Resume Button */}
-          <a
+          {/* <a
             href="https://drive.google.com/file/d/1_pLl2wjYVCU-wnqXIhjhYr0YC0SJXvwv/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
@@ -59,7 +58,7 @@ const About = () => {
             }}
           >
             DOWNLOAD CV
-          </a>
+          </a> */}
           
         </div>
         {/* Right Side */}
